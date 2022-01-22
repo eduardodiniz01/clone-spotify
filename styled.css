@@ -23,11 +23,15 @@ body {
 	letter-spacing: 1px;
 	font-weight: bold;
 	transition: all 300ms ease;
+	min-width: 320px;
+	max-width: 1600px;
 }
 
 .btn-primary:hover {
 	background: var(--light-green);
 	cursor: pointer;
+	min-width: 320px;
+	max-width: 1600px;
 }
 
 .logo {
@@ -43,6 +47,8 @@ body {
 	position: fixed;
 	top: 0;
 	width: 100%;
+	min-width: 320px;
+	max-width: 1600px;
 }
 
 #navbar .navbar-container {
@@ -56,7 +62,6 @@ body {
 #navbar .navbar-container ul {
 	display: flex;
 	list-style: none;
-	font-weight: bold;
 }
 
 #navbar .navbar-container ul li {
@@ -82,6 +87,8 @@ body {
 	background: url("/img/showcase.webp") center center/cover;
 	background-color: rgba(0, 0, 0, 0.4);
 	background-blend-mode: color;
+	min-width: 320px;
+	max-width: 1600px;
 }
 
 #showcase .showcase-container {
@@ -103,6 +110,8 @@ body {
 	background: black;
 	color: white;
 	padding: 80px 0;
+	min-width: 320px;
+	max-width: 1600px;
 }
 
 #footer .footer-content {
@@ -136,6 +145,8 @@ body {
 
 .socials {
 	display: flex;
+	min-width: 320px;
+	max-width: 1600px;
 }
 
 .socials i {
